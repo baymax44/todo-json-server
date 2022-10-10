@@ -1,0 +1,14 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "simple json server for todo react native app",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "ez",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
